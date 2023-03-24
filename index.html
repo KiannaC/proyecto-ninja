@@ -4,10 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>T-SHIRT.ART "Perfila tu estilo, eres tu mejor diseñador"</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/CSS/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="Assets/IMG/Logo1.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -19,7 +23,54 @@
             </form>
         </div>
         <div class="col-4 d-flex justify-content-end">
-            <button class="btn btn-dark me-md-2" type="button">Iniciar Sesión</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="fa-solid fa-user-tag"></i> Iniciar Sesión
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content bg-lolo">
+                        <div class="modal-body">
+                            <div class="d-flex justify-content-end">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div>
+                                <div class="Iniciarsesion d-flex justify-content-center align-items-center">
+                                    <form class="Formularios pb-4">
+                                        <div class="Inputs">
+                                            <input type="text" placeholder="Correo electrónico o número de teléfono"
+                                                class="Inputss">
+                                        </div>
+                                        <div class="Inputs">
+                                            <input type="password" placeholder="Contraseña" class="Inputss">
+                                        </div>
+                                        <div>
+                                            <button class="botonLogin"> Iniciar sesión</button>
+                                        </div>
+                                        <div class="olvPass">
+                                            <a href="#">¿Has olvidado la contraseña?</a>
+                                        </div>
+                                        <div class="separador">
+                                            <div class="linea1">
+                                            </div>
+                                        </div>
+                                        <a href="Newaccount.html" target="_blank">
+                                            <div class="botonNewAc">
+                                                <button type="button" class="botonNewAcc">Crear cuenta nueva</button>
+
+                                            </div>
+                                        </a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
