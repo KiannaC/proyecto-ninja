@@ -15,7 +15,7 @@
 }
 
 .parrafo1 {
-    margin-top: 70px;
+    margin-top: 293px;
     width: 536px;
 }
 
@@ -30,16 +30,62 @@
     margin-top: 93px;
 }
 
-.imagenesBombi {
-    width: 400px;
-    border: 1px solid black;
-    z-index: 2;
+.lolo{
     position: absolute;
+    right: 9%;
+    top: 230px;
 }
 
-.imagenesBombi img{
-    width: 200px;
+.imagenesBombi  img{
+    width: 278px;
+    height: 349px;
+}
+
+.imagenesBombi2 img {
+    width: 350px;
+}
+.imagenesBombi {
+    position: absolute;
+    z-index: 99;
+    top: 52%;
+    left: -71px;
+}
+
+.imagenesBombi2 {
     position: relative;
-    z-index: 1;
+    left: 137px;
 }
 
+.fondoNegro {
+    height: 865px;
+    position: absolute;
+    background: black;
+    width: 561px;
+    z-index: -90;
+    left: -71px;
+    top: -243px;
+}
+
+.final {
+    margin-top: 263px;
+}
+
+.Facebook {
+    width: 30px;
+}
+
+.Instagram {
+    width: 30px;
+}
+
+.WhatsApp {
+    width: 30px;
+}
+
+.Twitter {
+    width: 30px;
+}
+
+.Tiktok {
+    width: 30px;
+}
