@@ -50,3 +50,242 @@
 .Tiktok {
     width: 30px;
 }
+
+
+
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/********************************************************/
+
+
+
+
+
+.Botones {
+    margin-left: 250px;
+}
+
+.imagen {
+    position: absolute;
+    
+}
+
+.Carrito {
+    font-weight: 900;
+    width: 54px;
+    padding-top: 3px;
+    font-size: 33px;
+    color: white;
+}
+
+.posicion {
+    position: relative;
+    left: 64px;
+    top: -39px;
+}
+
+.parrafo1 {
+    margin-top: 293px;
+    width: 536px;
+}
+
+.tallas {
+    margin-top: 50px;
+    margin-left: 0px;
+    height: 50px;
+}
+
+.encuentraTuPrenda {
+    margin-left: -247px;
+    margin-top: 93px;
+}
+
+.lolo{
+    position: absolute;
+    right: 9%;
+    top: 230px;
+}
+
+.imagenesBombi  img{
+    width: 278px;
+    height: 349px;
+}
+
+.imagenesBombi2 img {
+    width: 350px;
+}
+.imagenesBombi {
+    position: absolute;
+    z-index: 99;
+    top: 52%;
+    left: -71px;
+}
+
+.imagenesBombi2 {
+    position: relative;
+    left: 137px;
+}
+
+.fondoNegro {
+    height: 101vh;
+    position: absolute;
+    background: black;
+    width: 598px;
+    z-index: -90;
+    left: -71px;
+    top: -44%;
+}
+
+.fondoNegro1{
+    height: 145vh;
+    position: absolute;
+    background: black;
+    width: 653px;
+    /* z-index: -90; */
+    left: 1270px;
+    top: -44%;
+}
+
+.final {
+    margin-top: 263px;
+}
+
+.Facebook {
+    width: 30px;
+}
+
+.Instagram {
+    width: 30px;
+}
+
+.WhatsApp {
+    width: 30px;
+}
+
+.Twitter {
+    width: 30px;
+}
+
+.Tiktok {
+    width: 30px;
+}
+
+/* @media (min-width: 600px) {
+    .parrafo1 {
+        width: 30px;
+        color: white;
+        padding: 44px;
+    }
+    } */
+
+.Formularios {
+    border: 1px solid #c5c5c5;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    padding-bottom: 500px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.Inputss {
+    width: 300px;
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 8px;
+    border-color: #c5c5c5;
+    border: 1px solid   #c5c5c5;
+    padding: 15px  15px;
+    
+}
+
+.botonLogin{
+    border: 0;
+    width: 100%;
+    background-color: black;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px   0;
+}
+
+.olvPass{
+    text-align: center;
+    align-items: center;
+    padding: 10px   0;
+    font-size: 14px;
+}
+
+.olvPass a{
+    text-decoration: none;
+    color: #166fe5;
+}
+
+/* #42b72a */
+
+.botonNewAcc{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22%;
+}
+
+.botonNewAcc{
+    border: 0;
+    /* width: 100%; */
+    background-color: black;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.bg-lolo{
+    background: transparent !important;
+    border: 0  ;
+}
+
+.separador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea1 {
+    background: #c5c5c5;
+    width: 100%;
+    height: 1px;
+    margin: 20px    0;
+}
+
+.contenedorGeneralReg{
+    width: 432px;
+    height: 470px;
+}
+
+.Formularios1 {
+    border: 1px solid #c5c5c5;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.bodyss{
+    height: 100vh;
+}
+
+footer{
+    width: 100%;
+    padding: 0 93px 73px;
+}
+
+.condiciones {
+    font-size: 12px;
+    text-align: justify;
+    margin: 5px;
+}
