@@ -1,0 +1,52 @@
+.imgProducto {
+    width: 100%;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Segunda {
+    background-color: rgb(18, 18, 19);
+}
+
+
+.img1 {
+    background-image: url(../IMG/Estampados/estampado.jpeg);
+}
+
+.img2 {
+    background-image: url(../IMG/Estampados/pokemon.jpg);
+}
+
+.img3 {
+    background-image: url(../IMG/Estampados/Catrina.jpg);
+}
+
+.img4 {
+    background-image: url(../IMG/Estampados/estampadobruja.jpg);
+}
+
+.final {
+    margin-top: 263px;
+}
+
+.Facebook {
+    width: 30px;
+}
+
+.Instagram {
+    width: 30px;
+}
+
+.WhatsApp {
+    width: 30px;
+}
+
+.Twitter {
+    width: 30px;
+}
+
+.Tiktok {
+    width: 30px;
+}
