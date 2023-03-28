@@ -8,6 +8,14 @@
     
 }
 
+.Carrito {
+    font-weight: 900;
+    width: 54px;
+    padding-top: 3px;
+    font-size: 33px;
+    color: white;
+}
+
 .posicion {
     position: relative;
     left: 64px;
@@ -89,3 +97,11 @@
 .Tiktok {
     width: 30px;
 }
+
+/* @media (min-width: 600px) {
+    .parrafo1 {
+        width: 30px;
+        color: white;
+        padding: 44px;
+    }
+    } */
