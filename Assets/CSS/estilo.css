@@ -13,7 +13,7 @@ body{
 }
 
 .Carrito {
-    font-weight: 900;
+    
     width: 54px;
     padding-top: 3px;
     font-size: 33px;
@@ -27,7 +27,7 @@ body{
 }
 
 .parrafo1 {
-    margin-top: 293px;
+    margin-top: 150px;
     width: 536px;
 }
 
@@ -111,14 +111,6 @@ body{
 .Tiktok {
     width: 30px;
 }
-
-/* @media (min-width: 600px) {
-    .parrafo1 {
-        width: 30px;
-        color: white;
-        padding: 44px;
-    }
-    } */
 
 .Formularios {
     border: 1px solid #c5c5c5;
@@ -227,4 +219,18 @@ footer{
     font-size: 12px;
     text-align: justify;
     margin: 5px;
+}
+
+
+@media (max-width:992px) {
+    .popo{
+        width: 100% !important;
+    }
+    .parrafo1 {
+        margin-top: 80px;
+    }
+}
+
+.popo{
+    width: 70%;
 }
