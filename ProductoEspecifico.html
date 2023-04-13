@@ -7,7 +7,7 @@
     <title>Estampados</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="Assets/CSS/estampados.css">
+    <link rel="stylesheet" href="Assets/CSS/estilo.css">
 </head>
 
 <body class="Segunda">
@@ -19,20 +19,20 @@
             </form>
         </div>
         <div class="col-12 col-lg-4 d-flex justify-content-end">
-            <button class="btn btn-light me-md-2" type="button">Iniciar Sesión</button>
+            <button class="btn btn-dark me-md-2" type="button">Iniciar Sesión</button>
 
         </div>
     </div>
     <nav class="navbar">
         <div class="Botones d-lg-flex justify-content-around align-items-center w-75 p-4 d-none">
-            <a href="index.html" class="btn btn-light">Inicio</a>
-            <button type="button" class="btn btn-light">Categorías</button>
-            <a class="btn btn-light" href="productos.html">Productos</a>
-            <a href="estampado.html"><button type="button" class="btn btn-light">Estampados</button></a>
-            <button type="button" class="btn btn-light">Frases</button>
+            <button type="button" class="btn btn-dark">Inicio</button>
+            <button type="button" class="btn btn-dark">Categorías</button>
+            <a href="productos.html"><button type="button" class="btn btn-dark">Productos</button></a>
+            <a href="estampado.html"><button type="button" class="btn btn-dark">Estampados</button></a>
+            <button type="button" class="btn btn-dark">Frases</button>
         </div>
         <div class="container imagen w-25">
-            <img src="Assets/IMG/camisetica.png" class="posicion">
+            <img src="Assets/IMG/camisetica.png" class="posicion" style="top: 20px;">
         </div>
         <div class="d-block d-lg-none w-100">
             <div class="d-flex justify-content-center w-100">
@@ -45,22 +45,23 @@
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
             aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">T-SHIRT.ART</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
                 <div>
-                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
-                    images, lists, etc.
+                    Personaliza tu camiseta ya sea para un evento, promoción o simplemente para llevarla en tu día a
+                    día. Disfruta de la amplia gama de colores disponible.
                 </div>
                 <div class="dropdown mt-3">
                     <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                        Dropdown button
+                        Inicio
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Categorias</a></li>
+                        <li><a class="dropdown-item" href="#">Productos</a></li>
+                        <li><a class="dropdown-item" href="#">Estampados</a></li>
+                        <li><a class="dropdown-item" href="#">Frases</a></li>
                     </ul>
                 </div>
             </div>
@@ -73,61 +74,47 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-12 col-lg-4">
+
                 <div class="card" style="width: 18rem;">
+                    <img src="Assets/IMG/camisetamarvel.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div><strong>Personaliza tu prenda</strong></div>
-                        <div>
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Diseño unico</option>
-                                <option value="1">Anime</option>
-                                <option value="2">Series</option>
-                                <option value="3">Deportes</option>
-                            </select>
-                        </div>
-                        <div><strong>Precio</strong></div>
-                        <span>Desde</span>
-                        <select class="form-select" aria-label="Desde">
-                            <option selected>20.0000</option>
-                            <option value="1">51.000</option>
-                            <option value="2">105.000</option>
-                        </select>
-                        <span>Hasta</span>
-                        <select class="form-select" aria-label="Hasta">
-                            <option selected>50.0000</option>
-                            <option value="1">100.000</option>
-                            <option value="2">200.000</option>
-                        </select>
+                        <h5 class="card-title">Camiseta Marvel</h5>
+                        <p class="card-text">Camiseta de cuello redondo, manga corta y corte entallado.
+                            100% soft algodón peinado - 150 g/m2</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-4">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/IMG/BUSITONARUTO.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Buso Naruto</h5>
+                        <p class="card-text">Buso cuello redondo con estampado.
+                            100% soft algodón peinado - 150 g/m2</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-8">
-                <div class="row row-cols-1 row-cols-md-4 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <div class="imgProducto img1"></div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="imgProducto img2"></div>
+            <div class="col-12 col-lg-4">
 
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="imgProducto img3"></div>
-
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="imgProducto img4"></div>
-
-                        </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/IMG/Capotero (1).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Capotero</h5>
+                        <p class="card-text">Capotero cerrado o abierto con estampado y corte entallado
+                            100% soft algodón peinado - 150 g/m2</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
+
             </div>
         </div>
+
+
+    </div>
     </div>
     <footer>
         <div class="container2 mt-5">

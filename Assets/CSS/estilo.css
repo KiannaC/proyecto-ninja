@@ -4,13 +4,16 @@
 }
 
 .body{
-    background: aqua;
+    background: rgb(240,194,86);
+background: linear-gradient(90deg, rgba(240,194,86,1) 0%, rgba(255,94,0,0.8827906162464986) 0%, rgba(252,176,69,1) 46%);
 }
+
 
 .imagen {
     position: absolute;
     left: 8rem;
 }
+
 
 /* .imgcarrusel{
     width: 80px;
@@ -18,13 +21,14 @@
 
 .posicion {
     position: relative;
-    left: 64px;
-    top: -39px;
+    left: -4px;
+    top: -189px;
 }
 
 .parrafo1 {
-    margin-top: 70px;
+    margin-top: 130px;
     width: 536px;
+    margin-left: 207px;
 }
 
 .tallas {
@@ -39,7 +43,7 @@
 }
 
 .imagenesBombi {
-    width: 400px;
+    width: 202px;
     border: 1px solid black;
     z-index: 2;
     position: absolute;
@@ -79,6 +83,21 @@
     filter: brightness(0.5);
 }
 
-.container{
-
+.cajaForm {
+    padding: 50px 64px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
 }
+
+.botonIni { 
+    margin-left: 41px;
+}
+
+.botonNewAc {
+    margin-left: 21px;
+}
+
+.px-2 > img {
+    width: 30px;
+}
+

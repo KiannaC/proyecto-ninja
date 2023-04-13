@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="shortcut icon" href="Assets/IMG/Logo1.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/IMG/Logo1.ico" type="image/x-icon">
 </head>
 
 <body class=""><!--bg-black  -->
@@ -24,8 +24,8 @@
         </div>
         <div class="col-4 d-flex justify-content-end">
             <!-- Button trigger modal -->
-            <i class="Carrito fa-solid fa-cart-arrow-down" ></i>
-            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="Carrito fa-solid fa-cart-arrow-down"></i>
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <i class="fa-solid fa-user-tag"></i> Iniciar Sesión
             </button>
 
@@ -40,31 +40,25 @@
                                     aria-label="Close"></button>
                             </div>
                             <div>
-                                <div class="Iniciarsesion d-flex justify-content-center align-items-center">
+                                <div class="IniciarSesion d-flex justify-content-center align-items-center">
                                     <form class="Formularios pb-4">
-                                        <div class="Inputs">
-                                            <input type="text" placeholder="Correo electrónico o número de teléfono"
-                                                class="Inputss">
+                                        <div class="cajaForm">
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Contraseña</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1">
+                                            </div>
                                         </div>
-                                        <div class="Inputs">
-                                            <input type="password" placeholder="Contraseña" class="Inputss">
-                                        </div>
-                                        <div>
-                                            <button class="botonLogin"> Iniciar sesión</button>
-                                        </div>
-                                        <div class="olvPass">
+                                        <div class="d-flex justify-content-center align-items-center flex-column mt-4">
+                                            <button class="btn btn-primary w-100 my-2" type="button">Inicia Sesión</button>
                                             <a href="#">¿Has olvidado la contraseña?</a>
+                                            <a href="Newaccount.html" target="_blank" class="w-100">
+                                                <button class="btn btn-primary w-100 my-2" type="button">Regístrate</button>
+                                            </a>
                                         </div>
-                                        <div class="separador">
-                                            <div class="linea1">
-                                            </div>
-                                        </div>
-                                        <a href="Newaccount.html" target="_blank">
-                                            <div class="botonNewAc">
-                                                <button type="button" class="botonNewAcc">Crear cuenta nueva</button>
-
-                                            </div>
-                                        </a>
                                     </form>
                                 </div>
                             </div>
@@ -76,16 +70,16 @@
     </div>
     <nav class="navbar">
         <div class="Botones d-flex justify-content-around align-items-center w-75 p-4 ">
-            <button type="button" class="btn btn-dark">Inicio</button>
+            <a href="index.html"><button type="button" class="btn btn-dark">Inicio</button></a>
             <button type="button" class="btn btn-dark">Categorías</button>
-            <button type="button" class="btn btn-dark">Productos</button>
-            <button type="button" class="btn btn-dark">Estampados</button>
-            <button type="button" class="btn btn-light">Frases</button>
-        </div>
-        <div class="container imagen">
-            <img src="Assets/IMG/camisetica.png" class="posicion">
-        </div>
+            <a class="btn btn-dark" href="productos.html">Productos</a>
+            <a href="estampado.html"><button type="button" class="btn btn-dark">Estampados</button></a>
+            <a href="#"><button type="button" class="btn btn-dark">Frases</button></a>
+        </div>    
     </nav>
+    <div class="container imagen">
+        <img src="Assets/IMG/camisetica.png" class="posicion">
+    </div>
     <div class="d-flex">
         <div class="d-flex popo flex-wrap justify-content-center">
             <div class="fs-1 fst-italic parrafo1">
@@ -137,7 +131,7 @@
                 <hr>
             </div>
             <div>
-                +57 320 4568901  /  servicioalcliente@t-shirt.art.com
+                +57 320 4568901 / servicioalcliente@t-shirt.art.com
             </div>
         </div>
     </footer>
@@ -146,4 +140,3 @@
         crossorigin="anonymous"></script>
 
 </html>
-

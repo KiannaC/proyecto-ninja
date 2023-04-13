@@ -32,23 +32,26 @@
     </div>
     <nav class="navbar">
         <div class="Botones d-flex justify-content-around align-items-center w-75 p-4">
-            <button type="button" class="btn btn-light">Inicio</button>
-            <button type="button" class="btn btn-light">Categorías</button>
-            <button type="button" class="btn btn-light">Productos</button>
-            <button type="button" class="btn btn-light">Estampados</button>
-            <button type="button" class="btn btn-light">Frases</button>
-        </div>
-        <div class="container imagen">
-            <img src="Assets/IMG/camisetica.png" class="posicion">
+            <a href="index.html">
+                <a href="index.html"><button type="button" class="btn btn-dark">Inicio</button></a>
+            </a>
+            <button type="button" class="btn btn-dark">Categorías</button>
+            <a class="btn btn-dark" href="productos.html">Productos</a>
+            <a href="estampado.html"><button type="button" class="btn btn-dark">Estampados</button></a>
+            <button type="button" class="btn btn-dark">Frases</button>
         </div>
     </nav>
+    <div class="container imagen">
+        <img src="Assets/IMG/camisetica.png" class="posicion">
+    </div>
 
     <div class="container1 d-flex justify-content-center align-content-start">
         <div class="container">
             <div class="carruselProductos">
                 <div class="p-5">
                     <img src="Assets/IMG/BUSITONARUTO.png" class="w-100" alt="">
-                    <a href="#"><img style="width: 50px;" src="Assets/IMG/canasta.png" alt=""></a>
+                    <a href="#"><img style="width: 50px;" src="Assets/IMG/canasta.png" alt="" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"></a>
                 </div>
 
                 <div class="p-5">
@@ -70,6 +73,35 @@
                 <div class="p-5">
                     <img src="Assets/IMG/gorra.png" class="w-100" alt="">
                     <a href="#"><img style="width: 50px;" src="Assets/IMG/canasta.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Buso Naruto</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <select name="" id="">
+                            <option value="" selected disabled>--Seleccione una talla--</option>
+                            <option value="">XS</option>
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+                        </select>
+                        <input type="color" name="" id="">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Comprar</button>
+                    <a href="ProductoEspecifico.html"><button type="button" class="btn btn-info">Detalles</button></a>
                 </div>
             </div>
         </div>
@@ -120,6 +152,7 @@
             arrows: true,
         });
     </script>
+    <script src="code.js"></script>
 </body>
 
 </html>

@@ -14,68 +14,75 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="d-flex justify-content-center align-items-center bodyss">
-    <Div class="contenedorGeneralReg d-flex justify-content-center align-items-center">
-        
-        <form class="Formularios1 d-flex justify-content-center align-items-center flex-column">
-            <div>
-                <div class="fw-bold fs-1">
-                    Registrarte
-                </div>
-                <div class="fs-5">
-                    Es rápido y fácil.
-                </div>
+<body>
+    <form class="Formularios1 d-flex justify-content-center align-items-center w-50 flex-wrap mt-4 mx-auto ">
+        <div class="w-100 text-center">
+            <div class="fw-bold fs-1">
+                Registrarte
             </div>
-            <div class="separador">
-                <div class="linea1">
-                </div>
+            <div class="fs-5">
+                Es rápido y fácil.
             </div>
-            <div class="Inputs">
-                <input type="text" placeholder="Nombre" class="Inputss">
+        </div>
+        <div class="separador">
+            <div class="linea1"></div>
+        </div>
+        <form class="w-100 d-flex justify-content-center align-items-center flex-wrap">
+            <div class="w-50 m-2">
+                <input type="text" class="form-control is-valid" id="validation01" placeholder="Nombres" value=""
+                    required>
             </div>
-            <div class="Inputs">
-                <input type="text" placeholder="Apellidos" class="Inputss">
+            <div class="w-50 m-2">
+                <input type="text" class="form-control is-valid" id="validation01" placeholder="Apellidos" value=""
+                    required>
             </div>
-            <div class="Inputs">
-                <input type="text" placeholder="Número de móvil o correo electrónico" class="Inputss">
+            <div class="w-50 m-2">
+                <input type="text" class="form-control is-valid" id="validation01"
+                    placeholder="Número de móvil o correo electrónico" value="" required>
             </div>
-            <div class="Inputs">
-                <input type="text" placeholder="Contraseña nueva" class="Inputss">
-            </div>
-            <div>
-                Fecha de nacimiento <a href="#"><i class="fa-solid fa-circle-question "></i></a>
-            </div>
-            <div class="Inputs">
-                <input type="date" placeholder="" class="Inputss">
-            </div>
-            <div>
-                Genero <a href="#"><i class="fa-solid fa-circle-question "></i></a>
-            </div>
-            <div class="d-flex ">
-                <div class="px-3">
-                    Mujer <input type="radio" class="" name="XXX">
-                </div>
-                <div class="px-3">
-                    Hombre <input type="radio" class="" name="XXX">
-                </div>
-            </div>
-            <div class="condiciones">
-                Es posible que usuarios de nuestro servicio hayan subido tu información de contacto a Facebook. <a
-                    href="#" class="text-decoration-none">Más información.</a>
-            </div>
-            <div class="condiciones">
-                Al hacer clic en Registrarte, aceptas las <a href="#" class="text-decoration-none">Condiciones</a>,
-                la <a href="#" class="text-decoration-none">Política de
-                    privacidad</a> y la <a href="#" class="text-decoration-none">Política de cookies</a>. Es posible
-                que te enviemos notificaciones por SMS, que podrás desactivar cuando quieras.
-            </div>
-            <div class="botonNewAc">
-                <button class="botonNewAcc bbotonNewAcc1">Registrate</button>
+            <div class="w-50 m-2">
+                <input type="text" class="form-control is-valid" id="validation01" placeholder="Contraseña nueva"
+                    value="" required>
             </div>
         </form>
-        <div>
-            <div class="fondoNegro1"></div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <div class="datosRegistro w-25">
+                <div>
+                    Fecha de nacimiento <a href="#"><i class="fa-solid fa-circle-question "></i></a>
+                </div>
+                <div class="Inputs">
+                    <input type="date" class="form-control" placeholder="" class="Inputss">
+                </div>
+                <div class="text-center my-2">
+                    Genero <a href="#"><i class="fa-solid fa-circle-question "></i></a>
+                </div>
+                <div class="d-flex justify-content-evenly align-items-center mb-4">
+                    <div class="px-3">
+                        Mujer <input type="radio" class="" name="XXX">
+                    </div>
+                    <div class="px-3">
+                        Hombre <input type="radio" class="" name="XXX">
+                    </div>
+                </div>
+                <div class="condiciones">
+                    Es posible que usuarios de nuestro servicio hayan subido tu información de contacto a Facebook. <a
+                        href="#" class="text-decoration-none">Más información.</a>
+                </div>
+                <div class="condiciones">
+                    Al hacer clic en Registrarte, aceptas las <a href="#" class="text-decoration-none">Condiciones</a>,
+                    la <a href="#" class="text-decoration-none">Política de
+                        privacidad</a> y la <a href="#" class="text-decoration-none">Política de cookies</a>. Es posible
+                    que te enviemos notificaciones por SMS, que podrás desactivar cuando quieras.
+                </div>
+            </div>
+            <div class="botonNewAc">
+                <button type="button" class="btn btn-outline-info">Regístrate</button> 
+                <a href="index.html"><button type="button" class="btn btn-outline-info">Volver</button></a>
+            </div>
         </div>
+    </form>
+    <div>
+        <div class="fondoNegro1"></div>
     </div>
 
 
